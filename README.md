@@ -24,3 +24,24 @@ Below is the BibTex for citing this snapshot of the repository.
   url =           {https://github.com/INFORMSJoC/2023.0286},
   note =          {Available for download at https://github.com/INFORMSJoC/2023.0286},
 }
+## Description
+This repository contains 5 folders, each for one variant of the branch-and-Benders-cut algorithm presented in the paper as follows.
+
+- BBC1: Multicut reformulation
+- BBC2: Multicut reformulation with penalty reformulation
+- BBC3: Multicut reformulation with Pareto-optimal cuts
+- BBC4: Multicut reformulation with supervalid and valid inequalities
+- BBC5: Multicut reformulation with all the acceleration techniques 
+
+Please note that for using the codes in Visual Studio, you should change the time function to clock(). The current time fucntion gettimeofday(&stop, NULL) is for Linux.
+
+## Building
+To use the code, you need CPLEX 22.1.0. To use other versions of CPLEX, please modify the Makefile and def.h with your CPLEX version.
+
+To run e.g. BBC2 in Linux
+
+make
+./BBCPenaltymulti Input.txt
+
+## Results
+All detailed results are available in the Results folder.
