@@ -39,10 +39,12 @@ Please note that for using the codes in Visual Studio, you should change the tim
 ## Building
 To use the code, you need CPLEX 22.1.0. To use other versions of CPLEX, please modify the Makefile and def.h with your CPLEX version.
 
-To run e.g. BBC2 in Linux
+To run e.g. BBC2 in Linux:
 
-make
+```make
+
 ./BBCPenaltymulti Input.txt
+```
 
 ## Results
 All detailed results are available in the [Results](https://github.com/shabnamvaziri/IJOC-paper/tree/main/Results) folder.
