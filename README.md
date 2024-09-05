@@ -3,7 +3,7 @@
 
 This repository contains different variants of branch-and-Benders-cut algorithm with acceleration techniques presented in "An Exact Algorithm for Multicommodity Network Design under Stochastic Interdictions".
 
-This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the MIT License.
+This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](https://github.com/shabnamvaziri/IJOC-paper/blob/main/LICENSE.txt).
 
 ## Cite
 To cite the contents of this repository, please cite both the paper and this repo, using their respective DOIs.
