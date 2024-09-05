@@ -41,7 +41,8 @@ To use the code, you need CPLEX 22.1.0. To use other versions of CPLEX, please m
 
 To run e.g. BBC2 in Linux:
 
-```make
+```
+make
 
 ./BBCPenaltymulti Input.txt
 ```
