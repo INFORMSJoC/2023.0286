@@ -24,6 +24,7 @@ Below is the BibTex for citing this snapshot of the repository.
   url =           {https://github.com/INFORMSJoC/2023.0286},
   note =          {Available for download at https://github.com/INFORMSJoC/2023.0286},
 }
+```
 ## Description
 This repository contains 5 folders, each for one variant of the branch-and-Benders-cut algorithm presented in the paper as follows.
 
@@ -44,4 +45,4 @@ make
 ./BBCPenaltymulti Input.txt
 
 ## Results
-All detailed results are available in the Results folder.
+All detailed results are available in the [Results](https://github.com/shabnamvaziri/IJOC-paper/tree/main/Results) folder.
