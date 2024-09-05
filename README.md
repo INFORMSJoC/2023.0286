@@ -37,7 +37,7 @@ This repository contains 5 folders, each for one variant of the branch-and-Bende
 Please note that for using the codes in Visual Studio, you should change the time function to clock(). The current time fucntion gettimeofday(&stop, NULL) is for Linux.
 
 ## Building
-To use the code, you need CPLEX 22.1.0. To use other versions of CPLEX, please modify the Makefile and def.h with your CPLEX version.
+To use the code, you need CPLEX 22.1.0. To use other versions of CPLEX, modify the Makefile and def.h with your CPLEX version.
 
 To run e.g. BBC2 in Linux:
 
